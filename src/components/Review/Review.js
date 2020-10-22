@@ -44,8 +44,9 @@ const Review = () => {
            </div>
            <div className ="cart-container">
                 <Cart cart={cart}>
-                    <button onClick={handleCheckOut} className = "main-button">Proceed Checkout</button>
+                    
                 </Cart>
+                <button onClick={handleCheckOut} className = "main-button">Proceed Checkout</button>
            </div>
         </div>
     );
